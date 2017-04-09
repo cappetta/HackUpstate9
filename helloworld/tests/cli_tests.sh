@@ -1,5 +1,37 @@
 #!/usr/bin/env bash
 
+
+echo "display dispensary information"
+http https://54bsx6qo9l.execute-api.us-east-1.amazonaws.com/dev/dispensary
+
+
+echo "Display OnCall Doctors - Bob"
+http https://54bsx6qo9l.execute-api.us-east-1.amazonaws.com/dev/meet/Bob
+echo "Display OnCall Doctors - Mary"
+http https://54bsx6qo9l.execute-api.us-east-1.amazonaws.com/dev/meet/Mary
+echo "Display OnCall Doctors - Wendel"
+http https://54bsx6qo9l.execute-api.us-east-1.amazonaws.com/dev/meet/Wendel
+echo "Display OnCall Doctors - Doug"
+http https://54bsx6qo9l.execute-api.us-east-1.amazonaws.com/dev/meet/Doug
+
+
+echo "Display Doctors List "
+http https://54bsx6qo9l.execute-api.us-east-1.amazonaws.com/dev/doctors
+
+echo "Display Quality Testing Results - AK-47 "
+http https://54bsx6qo9l.execute-api.us-east-1.amazonaws.com/dev/quality/AK-47
+
+echo "Display Quality Testing Results - BlueLighning "
+http https://54bsx6qo9l.execute-api.us-east-1.amazonaws.com/dev/quality/BlueLighning
+
+echo "Display Quality Testing Results - Gorilla"
+http https://54bsx6qo9l.execute-api.us-east-1.amazonaws.com/dev/quality/Gorilla
+
+
+echo "Display Quality Testing Results - GirlScoutCookies"
+http https://54bsx6qo9l.execute-api.us-east-1.amazonaws.com/dev/quality/GirlScoutCookies
+
+
 echo "Testing Inventory Lookup - Hybrid"
 http https://54bsx6qo9l.execute-api.us-east-1.amazonaws.com/dev/info/hybrid
 
@@ -53,3 +85,8 @@ echo '{"Blue Lightning": "112g"}' |http https://54bsx6qo9l.execute-api.us-east-1
 
 echo "testing posting inventory - Tom"
 echo '{"Cookies": "20", "Cartridges": "10"}' |http https://54bsx6qo9l.execute-api.us-east-1.amazonaws.com/dev/add/Tom
+
+
+
+
+
