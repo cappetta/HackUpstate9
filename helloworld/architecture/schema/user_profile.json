@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-03/schema",
+  "type": "object",
+  "properties": {
+    "displayName": {
+      "type": "string",
+      "description": "The name displayed on the user's profile within the App"
+    },
+    "FullName": {
+      "type": "object",
+      "description": "Government Name of this user."
+    },
+    "followers": { "$ref": "followers" },
+    "href": {
+      "type": "string",
+      "description": "A link to the Web API endpoint for this user."
+    },
+    "id": {
+      "type": "string",
+      "description": "The Spotify ID for this user."
+    },
+    "type": {
+      "type": "string",
+      "description": "The object type: 'user'"
+    },
+    "linkedin_uri": {
+      "type": "string",
+      "description": "The LinkedIn URI of this user."
+    },
+    "facebook_uri": {
+      "type": "string",
+      "description": "The facebook URI of this user."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+
+python based ethereum client: https://github.com/ethereum/pyethapp
+
+vagrant-based ethereum box: https://github.com/jesuscript/vagrant-eth-env
